@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\HotelPlatform.Shared.csproj": {
+                "projectPath": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\HotelPlatform.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
