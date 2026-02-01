@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63767B2B-ABF9-4640-9F9C-A8746C6DF9D2}|HotelPlatform.Shared\\HotelPlatform.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.shared\\hotelplatform.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63767B2B-ABF9-4640-9F9C-A8746C6DF9D2}|HotelPlatform.Shared\\HotelPlatform.Shared.csproj|solutionrelative:hotelplatform.shared\\hotelplatform.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68882721-7EE9-42DB-920D-E26E7B864C7A}|HotelPlatform.Repo\\HotelPlatform.Repo.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.repo\\hotelplatform.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68882721-7EE9-42DB-920D-E26E7B864C7A}|HotelPlatform.Repo\\HotelPlatform.Repo.csproj|solutionrelative:hotelplatform.repo\\hotelplatform.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.services\\hotelplatform.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|solutionrelative:hotelplatform.services\\hotelplatform.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelPlatform.Shared",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\HotelPlatform.Shared.csproj",
+              "RelativeDocumentMoniker": "HotelPlatform.Shared\\HotelPlatform.Shared.csproj",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\HotelPlatform.Shared.csproj",
+              "RelativeToolTip": "HotelPlatform.Shared\\HotelPlatform.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-01T19:13:23.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelPlatform.Repo",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Repo\\HotelPlatform.Repo.csproj",
+              "RelativeDocumentMoniker": "HotelPlatform.Repo\\HotelPlatform.Repo.csproj",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Repo\\HotelPlatform.Repo.csproj",
+              "RelativeToolTip": "HotelPlatform.Repo\\HotelPlatform.Repo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-01T19:12:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotelPlatform.Services",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\HotelPlatform.Services.csproj",
+              "RelativeDocumentMoniker": "HotelPlatform.Services\\HotelPlatform.Services.csproj",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\HotelPlatform.Services.csproj",
+              "RelativeToolTip": "HotelPlatform.Services\\HotelPlatform.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-01T19:11:33.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
