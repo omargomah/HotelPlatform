@@ -1,9 +1,10 @@
 ﻿namespace HotelPlatform.Shared.Enums
 {
-    public enum PaymentMethod
+    public enum PaymentMethodType
     {
         Card = 1,
         Fawry,
-        MobileWallet
+        Wallet= 3,
+        Meeza = 3
     }
 }

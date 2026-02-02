@@ -1,0 +1,16 @@
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\bin\Debug\net8.0\HotelPlatform.DAL.deps.json
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\bin\Debug\net8.0\HotelPlatform.DAL.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\bin\Debug\net8.0\HotelPlatform.DAL.pdb
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\bin\Debug\net8.0\HotelPlatform.Shared.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\bin\Debug\net8.0\HotelPlatform.Shared.pdb
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.csproj.AssemblyReference.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.AssemblyInfoInputs.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.AssemblyInfo.cs
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.sourcelink.json
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPla.EAD61D4F.Up2Date
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\refint\HotelPlatform.DAL.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\HotelPlatform.DAL.pdb
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.DAL\obj\Debug\net8.0\ref\HotelPlatform.DAL.dll

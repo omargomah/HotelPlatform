@@ -1,0 +1,13 @@
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\bin\Debug\net8.0\HotelPlatform.Shared.deps.json
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\bin\Debug\net8.0\HotelPlatform.Shared.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\bin\Debug\net8.0\HotelPlatform.Shared.pdb
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.csproj.AssemblyReference.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.AssemblyInfoInputs.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.AssemblyInfo.cs
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.csproj.CoreCompileInputs.cache
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.sourcelink.json
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\refint\HotelPlatform.Shared.dll
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\HotelPlatform.Shared.pdb
+D:\Hotel_Platfrom\HotelPlatform\HotelPlatform\HotelPlatform.Shared\obj\Debug\net8.0\ref\HotelPlatform.Shared.dll
