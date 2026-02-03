@@ -8,10 +8,8 @@ namespace HotelPlatform.DAL.Models.SystemModels
         public string BookingId { get; set; }
         public PaymentMethodType PaymentMethod { get; set; } 
         public TransactionPayStatus TransactionPayStatus { get; set; }
-        public string FawaterakReferenceNum { get; set; }
-
-        // To store the full response for security audits
-        public string RawGatewayResponse { get; set; }
+        public string ReferenceNum { get; set; }
+        public string InvoiceKey { get; set; }
     }
 
 }

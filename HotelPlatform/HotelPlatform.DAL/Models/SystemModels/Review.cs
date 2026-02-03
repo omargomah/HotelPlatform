@@ -11,6 +11,9 @@ namespace HotelPlatform.DAL.Models.SystemModels
         public string HotelComment { get; set; }
 
         public string BookingId { get; set; }
+        public string ClientId { get; set; }
+        public string UnitId { get; set; }
+        public string HotelId { get; set; }
         public Client Client { get; set; }
         public Booking Booking { get; set; }
         public Unit Unit { get; set; }

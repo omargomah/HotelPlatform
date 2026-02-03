@@ -6,4 +6,9 @@
         Confirmed,
         Cancelled
     }
+    public enum SeasonalPricingStatus
+    {
+        Active = 1,
+        Inactive
+    }
 }

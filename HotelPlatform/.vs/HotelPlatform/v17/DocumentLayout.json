@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{63767B2B-ABF9-4640-9F9C-A8746C6DF9D2}|HotelPlatform.Shared\\HotelPlatform.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.shared\\dtos\\paymentdtos\\webhookpaiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63767B2B-ABF9-4640-9F9C-A8746C6DF9D2}|HotelPlatform.Shared\\HotelPlatform.Shared.csproj|solutionrelative:hotelplatform.shared\\dtos\\paymentdtos\\webhookpaiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D40E0963-BF2B-43CE-BBDA-9E9FF1495B70}|HotelPlatform.API\\HotelPlatform.API.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D40E0963-BF2B-43CE-BBDA-9E9FF1495B70}|HotelPlatform.API\\HotelPlatform.API.csproj|solutionrelative:hotelplatform.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|solutionrelative:hotelplatform.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\hotelplatform.services\\implementation\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69DE54-9DEF-4B2B-AAB0-537DE6E88FC0}|HotelPlatform.Services\\HotelPlatform.Services.csproj|solutionrelative:hotelplatform.services\\implementation\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,58 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\Interfaces\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "HotelPlatform.Services\\Interfaces\\IPaymentService.cs",
-              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\Interfaces\\IPaymentService.cs",
-              "RelativeToolTip": "HotelPlatform.Services\\Interfaces\\IPaymentService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T12:01:59.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\Implementation\\PaymentService.cs",
-              "RelativeDocumentMoniker": "HotelPlatform.Services\\Implementation\\PaymentService.cs",
-              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Services\\Implementation\\PaymentService.cs",
-              "RelativeToolTip": "HotelPlatform.Services\\Implementation\\PaymentService.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAWwIMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T11:47:51.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebHookPaidDTO.cs",
-              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\DTOs\\PaymentDTOs\\WebHookPaidDTO.cs",
-              "RelativeDocumentMoniker": "HotelPlatform.Shared\\DTOs\\PaymentDTOs\\WebHookPaidDTO.cs",
-              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.Shared\\DTOs\\PaymentDTOs\\WebHookPaidDTO.cs",
-              "RelativeToolTip": "HotelPlatform.Shared\\DTOs\\PaymentDTOs\\WebHookPaidDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T09:31:11.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.API\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "HotelPlatform.API\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPlatform\\HotelPlatform.API\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "HotelPlatform.API\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAuwGQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T09:26:15.962Z",
-              "EditorCaption": ""
             }
           ]
         }
