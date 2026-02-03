@@ -1,4 +1,4 @@
-﻿namespace HotelPlatform.Shared.DTOs
+﻿namespace HotelPlatform.Shared.DTOs.PaymentDTOs
 {
     public class Cartitem
     {

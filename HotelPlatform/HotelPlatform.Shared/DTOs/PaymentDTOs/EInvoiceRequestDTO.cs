@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace HotelPlatform.Shared.DTOs
+namespace HotelPlatform.Shared.DTOs.PaymentDTOs
 {
 
     public class EInvoiceRequestDTO

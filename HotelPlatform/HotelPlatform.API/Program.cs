@@ -1,7 +1,7 @@
 
 using HotelPlatform.Services.Implementation;
 using HotelPlatform.Services.Interfaces;
-using HotelPlatform.Shared.DTOs;
+using HotelPlatform.Shared.DTOs.PaymentDTOs;
 
 namespace HotelPlatform.API
 {

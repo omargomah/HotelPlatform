@@ -1,7 +1,7 @@
 ﻿using HotelPlatform.Shared.Enums;
 using System.Text.Json.Serialization;
 
-namespace HotelPlatform.Shared.DTOs
+namespace HotelPlatform.Shared.DTOs.PaymentDTOs
 {
     public class PaymentMethod
     {

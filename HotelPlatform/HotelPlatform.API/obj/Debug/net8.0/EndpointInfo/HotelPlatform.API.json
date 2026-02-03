@@ -77,6 +77,89 @@
         }
       }
     },
+    "/api/Payment/GenerateHashKeyForIFrame": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "domain",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/paid_json": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookPaidDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookPaidDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookPaidDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/cancel_json": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookCancelDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookCancelDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebHookCancelDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -157,6 +240,32 @@
             "nullable": true
           },
           "address": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Customerdata": {
+        "type": "object",
+        "properties": {
+          "customer_unique_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "customer_first_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "customer_last_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "customer_email": {
+            "type": "string",
+            "nullable": true
+          },
+          "customer_phone": {
             "type": "string",
             "nullable": true
           }
@@ -258,6 +367,104 @@
             "readOnly": true
           },
           "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WebHookCancelDTO": {
+        "type": "object",
+        "properties": {
+          "hashKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "pay_load": {
+            "$ref": "#/components/schemas/PayLoad"
+          },
+          "transactionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "transactionKey": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WebHookPaidDTO": {
+        "type": "object",
+        "properties": {
+          "hashKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoice_key": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoice_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "payment_method": {
+            "type": "string",
+            "nullable": true
+          },
+          "pay_load": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoice_status": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "paidAmount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paidCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "paidAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "customerData": {
+            "$ref": "#/components/schemas/Customerdata"
+          },
+          "cardDiscountAmount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discountBankCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "commissionCode": {
             "type": "string",
             "nullable": true
           }
