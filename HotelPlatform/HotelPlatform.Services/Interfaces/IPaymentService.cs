@@ -1,4 +1,4 @@
-﻿using HotelPlatform.Shared.DTOs;
+﻿using HotelPlatform.Shared.DTOs.PaymentDTOs;
 using HotelPlatform.Shared.Enums;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,9 @@ namespace HotelPlatform.Services.Interfaces
         Task<IList<PaymentMethod>?> GetPaymentMethodsAsync();
         Task<PaymentMethodType> MappingPaymentMethod(int paymentId, IList<PaymentMethod>? methodsResponseDTOs = null);
         Task<(PaymentMethodType PaymentMethod, object Data)?> GeneralPayAsync(EInvoiceRequestDTO invoice);
-
-
+        bool VerifyWebhook(WebHookPaidDTO webHook);
+        bool VerifyCancelTransaction(WebHookCancelDTO webHookCancelDTO);
+        bool VerifyApiKeyTransaction(string apiKey);
+        string GenerateHashKeyForIFrame(string domain);
     }
 }

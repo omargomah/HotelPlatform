@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "eInvoiceRequestDTO",
-        "Type": "HotelPlatform.Shared.DTOs.EInvoiceRequestDTO",
+        "Type": "HotelPlatform.Shared.DTOs.PaymentDTOs.EInvoiceRequestDTO",
         "IsRequired": true
       }
     ],
@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "HotelPlatform.API.Controllers.PaymentController",
+    "Method": "WebHookCancel",
+    "RelativePath": "api/Payment/cancel_json",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "webHookPaidDTO",
+        "Type": "HotelPlatform.Shared.DTOs.PaymentDTOs.WebHookCancelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelPlatform.API.Controllers.PaymentController",
     "Method": "GeneralPay",
     "RelativePath": "api/Payment/GeneralPay",
     "HttpMethod": "POST",
@@ -35,7 +51,39 @@
     "Parameters": [
       {
         "Name": "eInvoiceRequestDTO",
-        "Type": "HotelPlatform.Shared.DTOs.EInvoiceRequestDTO",
+        "Type": "HotelPlatform.Shared.DTOs.PaymentDTOs.EInvoiceRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelPlatform.API.Controllers.PaymentController",
+    "Method": "GenerateHashKeyForIFrame",
+    "RelativePath": "api/Payment/GenerateHashKeyForIFrame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "domain",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelPlatform.API.Controllers.PaymentController",
+    "Method": "WebHookPaid",
+    "RelativePath": "api/Payment/paid_json",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "webHookPaidDTO",
+        "Type": "HotelPlatform.Shared.DTOs.PaymentDTOs.WebHookPaidDTO",
         "IsRequired": true
       }
     ],
