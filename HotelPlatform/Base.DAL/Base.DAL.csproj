@@ -17,8 +17,4 @@
     <ProjectReference Include="..\Base.Shared\Base.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Config\SystemConfig\" />
-  </ItemGroup>
-
 </Project>

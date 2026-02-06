@@ -6,7 +6,7 @@ namespace Base.DAL.Models.SystemModels
         public string UserId { get; set; }
         public string SSN { get; set; }
         public DateTime DOB { get; set; }
-        public string Gender { get; set; }
+        public Gender Gender { get; set; }
         public string ProfileImageLink { get; set; }
         public ApplicationUser User { get; set; }
         public ICollection<Booking> Bookings { get; set; } = new HashSet<Booking>();
