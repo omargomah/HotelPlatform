@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\config\\systemconfig\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\config\\systemconfig\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\transactionpaystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|solutionrelative:base.shared\\enums\\transactionpaystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\hotelphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\hotelphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\models\\systemmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\models\\systemmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\usertypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\unittype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|solutionrelative:base.shared\\enums\\unittype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\transactionpaystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|solutionrelative:base.shared\\enums\\transactionpaystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\enums\\seasonalpricingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,8 +114,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -124,14 +136,14 @@
               "RelativeDocumentMoniker": "Base.DAL\\Config\\SystemConfig\\AdminConfiguration.cs",
               "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Config\\SystemConfig\\AdminConfiguration.cs",
               "RelativeToolTip": "Base.DAL\\Config\\SystemConfig\\AdminConfiguration.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwCkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T19:41:01.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UnitType.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\Enums\\UnitType.cs",
               "RelativeDocumentMoniker": "Base.Shared\\Enums\\UnitType.cs",
@@ -139,12 +151,11 @@
               "RelativeToolTip": "Base.Shared\\Enums\\UnitType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:38:33.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:38:33.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "TransactionPayStatus.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\Enums\\TransactionPayStatus.cs",
               "RelativeDocumentMoniker": "Base.Shared\\Enums\\TransactionPayStatus.cs",
@@ -165,8 +176,7 @@
               "RelativeToolTip": "Base.Shared\\Enums\\SeasonalPricingStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:38:18.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:38:18.694Z"
             },
             {
               "$type": "Document",
@@ -178,8 +188,7 @@
               "RelativeToolTip": "Base.Shared\\Enums\\PaymentMethod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:38:10.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:38:10.646Z"
             },
             {
               "$type": "Document",
@@ -191,12 +200,11 @@
               "RelativeToolTip": "Base.Shared\\Enums\\HotelStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:37:59.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:37:59.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BookingStatus.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\Enums\\BookingStatus.cs",
               "RelativeDocumentMoniker": "Base.Shared\\Enums\\BookingStatus.cs",
@@ -204,8 +212,7 @@
               "RelativeToolTip": "Base.Shared\\Enums\\BookingStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:37:45.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:37:45.682Z"
             },
             {
               "$type": "Document",
@@ -217,8 +224,7 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\UnitPhoto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:37:15.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:37:15.27Z"
             },
             {
               "$type": "Document",
@@ -230,8 +236,7 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Unit.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:36:50.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:36:50.388Z"
             },
             {
               "$type": "Document",
@@ -243,12 +248,11 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\SeasonalPricing.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:36:20.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:36:20.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Review.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\Review.cs",
@@ -256,25 +260,24 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Review.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:35:37.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:35:37.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "PaymentTransaction.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\PaymentTransaction.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\PaymentTransaction.cs",
               "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\PaymentTransaction.cs",
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\PaymentTransaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T19:35:09.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "HotelPhoto.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\HotelPhoto.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\HotelPhoto.cs",
@@ -282,25 +285,24 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\HotelPhoto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:34:45.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:34:45.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Hotel.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Hotel.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\Hotel.cs",
               "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Hotel.cs",
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Hotel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T19:34:06.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Client.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Client.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\Client.cs",
@@ -308,25 +310,24 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:32:34.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:32:34.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Booking.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\Booking.cs",
               "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Booking.cs",
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T19:29:33.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Models\\SystemModels\\Admin.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Models\\SystemModels\\Admin.cs",
@@ -334,8 +335,7 @@
               "RelativeToolTip": "Base.DAL\\Models\\SystemModels\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:28:53.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:28:53.636Z"
             },
             {
               "$type": "Document",
@@ -347,8 +347,7 @@
               "RelativeToolTip": "Base.DAL\\Config\\BaseConfig\\ApplicationUserConfiguration.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:13:10.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:13:10.112Z"
             },
             {
               "$type": "Document",
@@ -360,8 +359,7 @@
               "RelativeToolTip": "Base.DAL\\Config\\DBTypes.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:01:11.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T19:01:11.187Z"
             },
             {
               "$type": "Document",
@@ -373,12 +371,11 @@
               "RelativeToolTip": "Base.DAL\\Config\\BaseConfig\\RefreshTokenConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:55:40.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:55:40.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BaseEntityConfigurations.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Config\\BaseConfig\\BaseEntityConfigurations.cs",
               "RelativeDocumentMoniker": "Base.DAL\\Config\\BaseConfig\\BaseEntityConfigurations.cs",
@@ -386,8 +383,7 @@
               "RelativeToolTip": "Base.DAL\\Config\\BaseConfig\\BaseEntityConfigurations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:51:58.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:51:58.206Z"
             },
             {
               "$type": "Document",
@@ -399,8 +395,7 @@
               "RelativeToolTip": "Base.DAL\\Contexts\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:39:16.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:39:16.646Z"
             },
             {
               "$type": "Document",
@@ -412,12 +407,11 @@
               "RelativeToolTip": "Base.DAL\\Data\\IdentitySeeder.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:38:26.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:38:26.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserTypes.cs",
               "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\Enums\\UserTypes.cs",
               "RelativeDocumentMoniker": "Base.Shared\\Enums\\UserTypes.cs",
@@ -425,8 +419,7 @@
               "RelativeToolTip": "Base.Shared\\Enums\\UserTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:37:45.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:37:45.104Z"
             },
             {
               "$type": "Document",
@@ -438,8 +431,7 @@
               "RelativeToolTip": "Base.DAL\\Models\\BaseModels\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:36:29.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T18:36:29.484Z"
             },
             {
               "$type": "Document",
@@ -451,20 +443,7 @@
               "RelativeToolTip": "Base.DAL\\Models\\BaseModels\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T18:35:14.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+              "WhenOpened": "2026-02-06T18:35:14.973Z"
             }
           ]
         }
