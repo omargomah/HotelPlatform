@@ -7,7 +7,7 @@ namespace Base.DAL.Models.SystemModels
     {
         public string BookingId { get; set; }
         public string FawaterakInvoiceId { get; set; }
-        public PaymentMethodType PaymentMethod { get; set; } 
+        public PaymentMethodType PaymentMethodType { get; set; } 
         public TransactionPayStatus TransactionPayStatus { get; set; }
         public Booking Booking { get; set; }
         public Client Client { get; set; }

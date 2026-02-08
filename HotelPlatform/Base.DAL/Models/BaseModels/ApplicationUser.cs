@@ -9,6 +9,7 @@ namespace Base.DAL.Models.BaseModels
         public string FullName { get; set; }
         public string FName { get; set; }
         public string LName { get; set; }
+        public string Address { get; set; }
         public UserTypes Type { get; set; }
         public bool IsActive { get; set; } = true;
         public  Admin? Admin { get; set; }

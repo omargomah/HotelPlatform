@@ -15,8 +15,10 @@ namespace Base.DAL.Config.SystemConfig
                    .HasColumnType(DBTypes.NVARCHAR_36)
                    .IsRequired();
 
-            builder.HasMany(a => a.ManagedHotels)
-                   .WithOne();
+            builder.HasOne(a => a.ApplicationUser)
+               .WithOne(u => u.Admin)
+               .HasForeignKey<Admin>(a => a.UserId);
+
         }
     }
 }

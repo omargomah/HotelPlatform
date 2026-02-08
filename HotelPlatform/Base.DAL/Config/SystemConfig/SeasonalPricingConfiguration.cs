@@ -10,10 +10,27 @@ namespace Base.DAL.Config.SystemConfig
         public override void Configure(EntityTypeBuilder<SeasonalPricing> builder)
         {
             base.Configure(builder);
-            builder.Property(s => s.Name).HasColumnName("name").HasColumnType(DBTypes.NVARCHAR).HasMaxLength(100);
-            builder.Property(s => s.IncreasingPercentage).HasColumnName("increasing_percentage").HasColumnType(DBTypes.DECIMAL18_4);
-            builder.Property(s => s.Start).HasColumnName("star").HasColumnType(DBTypes.DATETIME);
-            builder.Property(s => s.End).HasColumnName("end").HasColumnType(DBTypes.DATETIME);
+            
+            builder.Property(s => s.Name)
+                .HasColumnName("name")
+                .HasColumnType(DBTypes.NVARCHAR)
+                .HasMaxLength(100)
+                .IsRequired();
+
+            builder.Property(s => s.IncreasingPercentage)
+                .HasColumnName("increasing_percentage")
+                .HasColumnType(DBTypes.DECIMAL18_4)
+                .IsRequired();
+
+            builder.Property(s => s.Start)
+                .HasColumnName("star")
+                .HasColumnType(DBTypes.DATETIME)
+                .IsRequired();
+
+            builder.Property(s => s.End)
+                .HasColumnName("end")
+                .HasColumnType(DBTypes.DATETIME)
+                .IsRequired();
         }
     }
 }
