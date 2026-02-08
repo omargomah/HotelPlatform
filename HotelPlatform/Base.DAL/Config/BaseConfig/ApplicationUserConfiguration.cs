@@ -13,6 +13,7 @@ namespace Base.DAL.Config.BaseConfig
         {
             builder.HasKey(u => u.Id);
             builder.Property(u => u.Id)
+               .HasColumnName("id")
                .HasColumnType(DBTypes.NVARCHAR_36);
 
 
@@ -39,6 +40,11 @@ namespace Base.DAL.Config.BaseConfig
                 .HasColumnType(DBTypes.NVARCHAR)
                 .HasMaxLength(100)
                 .IsRequired();
+            builder.Property(u => u.Address)
+                .HasColumnName("address")
+                .HasColumnType(DBTypes.NVARCHAR)
+                .HasMaxLength(200)
+                .IsRequired(false);
 
             builder.Property(u => u.IsActive)
                    .HasColumnName("is_active")
@@ -47,13 +53,7 @@ namespace Base.DAL.Config.BaseConfig
                    .IsRequired();
 
 
-            builder.HasOne(u => u.Admin)
-                   .WithOne(a => a.User)
-                   .HasForeignKey<Admin>(a => a.UserId);
 
-            builder.HasOne(u => u.Client)
-                   .WithOne(c => c.User)
-                   .HasForeignKey<Client>(c => c.UserId);
         }
     }
 }

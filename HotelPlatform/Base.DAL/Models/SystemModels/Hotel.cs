@@ -11,9 +11,11 @@ namespace Base.DAL.Models.SystemModels
         public string City { get; set; }
         public string Governate { get; set; }
         public HotelStatus HotelStatus { get; set; }
-        public List<Unit> Units { get; set; }
+        public Admin Manager { get; set; }
+        public ICollection<Unit> Units { get; set; } = new HashSet<Unit>();
         public ICollection<HotelPhoto> HotelPhotos { get; set; } = new HashSet<HotelPhoto>();
         public ICollection<SeasonalPricing> SeasonalPricings { get; set; } = new HashSet<SeasonalPricing>();
+        public ICollection<Review> Reviews { get; set; } = new HashSet<Review>();
     }
 
 }

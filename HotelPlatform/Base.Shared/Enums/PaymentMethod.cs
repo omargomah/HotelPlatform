@@ -4,7 +4,6 @@
     {
         Card = 1,
         Fawry,
-        Wallet= 3,
-        Meeza = 3
+        Wallet
     }
 }

@@ -9,9 +9,11 @@ namespace Base.DAL.Models.SystemModels
         public DateTime EndDate { get; set; }
         public BookingStatus BookingStatus { get; set; } 
         public double TotalPrice { get; set; }
-        public string FawaterakInvoiceId { get; set; } // From ExecutePayment API
+        public int CountOfPerson { get; set; }
         public string UnitId { get; set; }
         public Unit Unit { get; set; }
+        public Review Review { get; set; }
+        public Client Client { get; set; }
         public ICollection<PaymentTransaction> Transactions { get; set; } = new HashSet<PaymentTransaction>();
     }
 

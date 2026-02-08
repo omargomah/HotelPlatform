@@ -18,10 +18,15 @@ namespace Base.DAL.Config.SystemConfig
                 .HasColumnName("user_id")
                 .HasColumnType(DBTypes.NVARCHAR_36)
                 .IsRequired();
-            builder.Property(c => c.SSN).HasColumnType(DBTypes.NVARCHAR).HasMaxLength(20).IsRequired();
-            builder.Property(c => c.DOB).HasColumnType(DBTypes.DATE).IsRequired();
-            builder.Property(c => c.Gender).HasColumnType(DBTypes.NVARCHAR).HasMaxLength(5).HasConversion(new EnumToStringConverter<Gender>());
-            builder.Property(c => c.ProfileImageLink).HasColumnType(DBTypes.NVARCHARMAX);
+            builder.Property(c => c.SSN).HasColumnName("SSN").HasColumnType(DBTypes.NVARCHAR).HasMaxLength(14).IsRequired(false);
+            builder.Property(c => c.DOB).HasColumnName("DOB").HasColumnType(DBTypes.DATE).IsRequired(false);
+            builder.Property(c => c.Gender).HasColumnName("gender").HasColumnType(DBTypes.NVARCHAR).HasMaxLength(5).HasConversion(new EnumToStringConverter<Gender>()).IsRequired(false);
+            builder.Property(c => c.ProfileImageLink).HasColumnName("profile_image_link").HasColumnType(DBTypes.NVARCHARMAX).IsRequired(false);
+            
+            builder.HasOne(c => c.User)
+            .WithOne(u => u.Client)
+            .HasForeignKey<Client>(c => c.UserId);
+
         }
     }
 
