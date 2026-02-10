@@ -14,7 +14,7 @@ namespace Base.Repo.Implementations
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
         private readonly DbSet<T> _dbSet;
-        private readonly AppDbContext _context;
+        protected readonly AppDbContext _context;
 
         public GenericRepository(AppDbContext context)
         {

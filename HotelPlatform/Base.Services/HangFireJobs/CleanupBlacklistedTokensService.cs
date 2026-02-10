@@ -17,7 +17,7 @@ namespace Base.Services.HangFireJobs
         {
             try
             {
-                var repo = _unitOfWork.Repository<BlacklistedToken>();
+                var repo = _unitOfWork.GenericRepository<BlacklistedToken>();
                 var spec = new BaseSpecification<BlacklistedToken>(t => t.ExpiryDate <= DateTime.UtcNow);
 
                 var expiredTokens = await repo.ListAsync(spec);

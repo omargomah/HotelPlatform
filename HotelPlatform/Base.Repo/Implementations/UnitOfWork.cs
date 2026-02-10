@@ -29,7 +29,7 @@ namespace Base.Repo.Implementations
         // 🏭 مصنع المستودعات (Repository Factory)
         // ------------------------------------------------------------------
 
-        public IGenericRepository<T> Repository<T>() where T : BaseEntity
+        public IGenericRepository<T> GenericRepository<T>() where T : BaseEntity
         {
             // 🟢 وقائي: استخدام GetType() كـ Key أفضل من .Name (قد يكون هناك صنفين بنفس الاسم في namespaces مختلفة)
             var type = typeof(T);

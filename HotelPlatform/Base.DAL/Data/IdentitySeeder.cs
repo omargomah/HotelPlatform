@@ -20,8 +20,8 @@ namespace Base.DAL.Seeding
             }
 
             // 🧑‍💼 بيانات الأدمن الافتراضي
-            string adminEmail = "islam7lmy@gmail.com";
-            string adminPassword = "Admin@123";
+            string adminEmail = "mrjmh934@gmail.com";
+            string adminPassword = "Omar@123";
 
             // ✅ تحقق لو الأدمن مش موجود
             var adminUser = await userManager.FindByEmailAsync(adminEmail);
@@ -29,8 +29,8 @@ namespace Base.DAL.Seeding
             {
                 adminUser = new ApplicationUser
                 {
-                    FullName = "Islam helmy",
-                    Type = UserTypes.SystemAdmin,
+                    FullName = "Omar Gomaa",
+                    Type = UserTypes.Admin,
                     UserName = adminEmail,
                     Email = adminEmail,
                     EmailConfirmed = true
@@ -41,7 +41,7 @@ namespace Base.DAL.Seeding
                 if (result.Succeeded)
                 {
                     // 🟣 أضف الأدمن إلى دور "Admin"
-                    await userManager.AddToRoleAsync(adminUser, UserTypes.SystemAdmin.ToString());
+                    await userManager.AddToRoleAsync(adminUser, UserTypes.Admin.ToString());
                 }
             }
         }

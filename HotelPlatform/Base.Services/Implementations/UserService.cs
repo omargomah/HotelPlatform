@@ -56,7 +56,7 @@ namespace Base.Services.Implementations
             await _userManager.AddToRoleAsync(_user, "User");
 
             // create profile
-            var profileRepo = _unitOfWork.Repository<UserProfile>();
+            var profileRepo = _unitOfWork.GenericRepository<UserProfile>();
             await profileRepo.AddAsync(new UserProfile { UserId = _user.Id });
             if ((await _unitOfWork.CompleteAsync()) == 0) return false;
 
@@ -111,7 +111,7 @@ namespace Base.Services.Implementations
             var expiryDate = jwtToken.ValidTo;
 
             // 3️⃣ إضافة الـ Access Token للـ Blacklist
-            var repo = _unitOfWork.Repository<BlacklistedToken>();
+            var repo = _unitOfWork.GenericRepository<BlacklistedToken>();
             var blacklistedToken = new BlacklistedToken
             {
                 Token = accessToken,
