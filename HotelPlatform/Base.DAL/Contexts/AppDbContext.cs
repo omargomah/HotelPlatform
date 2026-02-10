@@ -1,4 +1,5 @@
 ﻿using Base.DAL.Models.BaseModels;
+using Base.DAL.Models.SystemModels;
 using Base.Shared.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -138,7 +139,15 @@ namespace Base.DAL.Contexts
         }
 
         #region DBSets
-        public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Admin> Admins { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<PaymentTransaction> PaymentTransactions { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<SeasonalPricing> SeasonalPricings { get; set; }
+        public DbSet<Unit> Units { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<OtpEntry> OtpEntries { get; set; }
         public DbSet<BlacklistedToken> BlacklistedTokens { get; set; }

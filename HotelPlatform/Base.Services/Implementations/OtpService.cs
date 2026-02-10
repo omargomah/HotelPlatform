@@ -144,7 +144,7 @@ namespace Base.Services.Implementations
 
         public async Task<OtpEntry?> GetActiveOtpAsync(string email, string purpose)
         {
-            var repo = _unitOfWork.Repository<OtpEntry>();
+            var repo = _unitOfWork.GenericRepository<OtpEntry>();
             var spec = new BaseSpecification<OtpEntry>(o => o.Email == email && o.Purpose == purpose && o.ExpiresAtUtc > DateTime.UtcNow);
             spec.AddOrderByDesc(e => e.CreatedAtUtc);
             var entry = await repo.GetEntityWithSpecAsync(spec);
@@ -153,21 +153,21 @@ namespace Base.Services.Implementations
 
         public async Task AddAsync(OtpEntry otp)
         {
-            var repo = _unitOfWork.Repository<OtpEntry>();
+            var repo = _unitOfWork.GenericRepository<OtpEntry>();
             await repo.AddAsync(otp);
             await _unitOfWork.CompleteAsync();
         }
 
         public async Task UpdateAsync(OtpEntry otp)
         {
-            var repo = _unitOfWork.Repository<OtpEntry>();
+            var repo = _unitOfWork.GenericRepository<OtpEntry>();
             await repo.UpdateAsync(otp);
             await _unitOfWork.CompleteAsync();
         }
 
         public async Task DeleteAsync(OtpEntry otp)
         {
-            var repo = _unitOfWork.Repository<OtpEntry>();
+            var repo = _unitOfWork.GenericRepository<OtpEntry>();
             await repo.DeleteAsync(otp);
             await _unitOfWork.CompleteAsync();
         }

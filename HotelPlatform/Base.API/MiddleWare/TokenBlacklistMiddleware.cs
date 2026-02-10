@@ -54,7 +54,7 @@ namespace Base.API.MiddleWare
             {
                 var accessToken = authHeader.Substring("Bearer ".Length).Trim();
 
-                var repo = unitOfWork.Repository<BlacklistedToken>();
+                var repo = unitOfWork.GenericRepository<BlacklistedToken>();
                 var spec = new BaseSpecification<BlacklistedToken>(t => t.Token == accessToken);
                 var isBlacklisted = await repo.ListAsync(spec);
 

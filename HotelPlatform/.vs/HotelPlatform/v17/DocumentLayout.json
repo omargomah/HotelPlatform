@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD20179-E951-482B-A36F-6B2A099E8ECB}|Base.Services\\Base.Services.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD20179-E951-482B-A36F-6B2A099E8ECB}|Base.Services\\Base.Services.csproj|solutionrelative:base.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD20179-E951-482B-A36F-6B2A099E8ECB}|Base.Services\\Base.Services.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.services\\helpers\\registerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD20179-E951-482B-A36F-6B2A099E8ECB}|Base.Services\\Base.Services.csproj|solutionrelative:base.services\\helpers\\registerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\data\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\data\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.shared\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F519EEC0-6F76-41D8-9359-56888E8C7830}|Base.Shared\\Base.Shared.csproj|solutionrelative:base.shared\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.repo\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|solutionrelative:base.repo\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.repo\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|solutionrelative:base.repo\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.repo\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC8B788-6CC2-4B62-83DD-C4A1C2DA6A03}|Base.Repo\\Base.Repo.csproj|solutionrelative:base.repo\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|d:\\hotel_platfrom\\hotelplatform\\hotelplatform\\base.dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7203D3C-53F3-48B9-B8F5-853CC8009BBE}|Base.DAL\\Base.DAL.csproj|solutionrelative:base.dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Base.Services\\Implementations\\UserService.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Base.Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wC4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:27:59.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterExtensions.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Services\\Helpers\\RegisterExtensions.cs",
+              "RelativeDocumentMoniker": "Base.Services\\Helpers\\RegisterExtensions.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Services\\Helpers\\RegisterExtensions.cs",
+              "RelativeToolTip": "Base.Services\\Helpers\\RegisterExtensions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:27:25.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Data\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "Base.DAL\\Data\\IdentitySeeder.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Data\\IdentitySeeder.cs",
+              "RelativeToolTip": "Base.DAL\\Data\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:26:33.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Base.Shared\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Shared\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Base.Shared\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwCMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:22:32.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Base.Repo\\Implementations\\GenericRepository.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "Base.Repo\\Implementations\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:04:14.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Base.Repo\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Base.Repo\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:03:01.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Base.Repo\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.Repo\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Base.Repo\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:01:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Base.DAL\\Contexts\\AppDbContext.cs",
+              "ToolTip": "D:\\Hotel_Platfrom\\HotelPlatform\\HotelPLatform\\Base.DAL\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "Base.DAL\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAIwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:56:15.553Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"

@@ -24,18 +24,18 @@ namespace Base.Services.Helpers
             };
         }
 
-        public static UserProfile ToProfile(this RegisterDTO Dto)
-        {
-            if (Dto is null)
-            {
-                return new UserProfile();
-            }
+        //public static UserProfile ToProfile(this RegisterDTO Dto)
+        //{
+        //    if (Dto is null)
+        //    {
+        //        return new UserProfile();
+        //    }
 
-            return new UserProfile
-            {
-                //FullName = Dto.FullName,
-                //PhoneNumber = Dto.PhoneNumber
-            };
-        }
+        //    return new UserProfile
+        //    {
+        //        //FullName = Dto.FullName,
+        //        //PhoneNumber = Dto.PhoneNumber
+        //    };
+        //}
     }
 }

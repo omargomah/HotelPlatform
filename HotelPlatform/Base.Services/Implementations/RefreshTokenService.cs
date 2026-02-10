@@ -45,7 +45,7 @@ namespace Base.Services.Implementations
                 ExpiresAtUtc = DateTime.UtcNow.AddDays(int.Parse(_config["Auth:RefreshTokenDays"] ?? "30"))
             };
 
-            var repo = _unitOfWork.Repository<RefreshToken>();
+            var repo = _unitOfWork.GenericRepository<RefreshToken>();
             await repo.AddAsync(token);
             await _unitOfWork.CompleteAsync();
 
@@ -58,7 +58,7 @@ namespace Base.Services.Implementations
 
             var tokenHash = HashHelper.ComputeSha256Hash(refreshToken);
 
-            var repo = _unitOfWork.Repository<RefreshToken>();
+            var repo = _unitOfWork.GenericRepository<RefreshToken>();
 
             var currentIp = _httpContextAccessor.HttpContext?.Connection.RemoteIpAddress?.ToString() ?? "unknown";
             var currentUa = _httpContextAccessor.HttpContext?.Request.Headers["User-Agent"].ToString() ?? "unknown";
@@ -95,7 +95,7 @@ namespace Base.Services.Implementations
         public async Task RevokeRefreshTokenAsync(string refreshToken, string reason)
         {
             var hash = HashHelper.ComputeSha256Hash(refreshToken);
-            var repo = _unitOfWork.Repository<RefreshToken>();
+            var repo = _unitOfWork.GenericRepository<RefreshToken>();
             var spec = new BaseSpecification<RefreshToken>(t => t.TokenHash == hash && t.RevokedAtUtc == null);
             var token = await repo.GetEntityWithSpecAsync(spec);
             if (token == null) return;
@@ -106,7 +106,7 @@ namespace Base.Services.Implementations
 
         public async Task RevokeAllUserTokensAsync(string userId, string reason)
         {
-            var repo = _unitOfWork.Repository<RefreshToken>();
+            var repo = _unitOfWork.GenericRepository<RefreshToken>();
             var tokens = await repo.ListAsync(new BaseSpecification<RefreshToken>(t => t.UserId == userId && t.RevokedAtUtc == null));
             foreach (var t in tokens)
             {

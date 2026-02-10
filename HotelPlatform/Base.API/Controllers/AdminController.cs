@@ -90,7 +90,7 @@ namespace Base.API.Controllers
         {
             try
             {
-                var profileRepository = _unitOfWork.Repository<UserProfile>();
+                var profileRepository = _unitOfWork.GenericRepository<UserProfile>();
                 // 1. التحقق الوقائي من حالة التوثيق.
                 //    (مع أن [Authorize] يغطي هذا، لكن التأكد يضيف طبقة وضوح).
                 if (User.Identity == null || !User.Identity.IsAuthenticated)
